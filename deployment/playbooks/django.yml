@@ -35,6 +35,10 @@
   - name: Collect static files
     command: ${env_path}/bin/python ${app_path}/python/ecep/manage.py collectstatic --noinput
 
+  - name: Copy jenkins testing script
+    template: src=assets/run_jenkins_tests.j2 dest=${app_path}/run_jenkins_tests.sh
+    only_if: ${django_jenkins}
+
   - name: Restart gunicorn
     action: service name=ecep state=restarted
     only_if: not ${django_jenkins}
