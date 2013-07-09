@@ -25,6 +25,7 @@ repos_to_add:
 app_path: /cel/app/
 static_path: /cel/static/
 media_path: /cel/media/
+env_path: /cel/env/
 
 ## Django Settings ##
 

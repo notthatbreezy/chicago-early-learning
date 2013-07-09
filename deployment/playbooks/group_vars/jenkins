@@ -28,6 +28,7 @@ node_packages:
 app_path: /var/Jenkins/workspace/CEL-Staging/
 static_path: /var/Jenkins/workspace/CEL-Staging/static
 media_path: /var/Jenkins/workspace/CEL-Staging/media
+env_path: /var/Jenkins/workspace/CEL-Staging/env
 
 ## Jenkins Settings ##
 
