@@ -60,3 +60,6 @@ clone_repo: True
 ## Jenkins Settings ##
 
 django_jenkins: False
+
+node_packages:
+  - none
