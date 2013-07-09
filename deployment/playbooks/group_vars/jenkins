@@ -26,11 +26,17 @@ node_packages:
 
 ## Paths ##
 
-app_path: /var/Jenkins/workspace/CEL-Staging/
-static_path: /var/Jenkins/workspace/CEL-Staging/static
-media_path: /var/Jenkins/workspace/CEL-Staging/media
-env_path: /var/Jenkins/workspace/CEL-Staging/env
+app_path: /var/jenkins/workspace/CEL-Staging/
+static_path: /var/jenkins/workspace/CEL-Staging/static
+media_path: /var/jenkins/workspace/CEL-Staging/media
+env_path: /var/jenkins/workspace/CEL-Staging/env
 
 ## Jenkins Settings ##
 
 django_jenkins: True
+
+## Git Specific for Development ##
+
+git_url: https://github.com/smartchicago/chicago-early-learning
+git_branch: staging
+
