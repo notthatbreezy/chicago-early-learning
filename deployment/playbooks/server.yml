@@ -30,4 +30,4 @@
     action: service name=nginx state=restarted
 
   - name: restart gunicorn
-    action: service name=gunicorn state=restarted
+    action: service name=ecep state=restarted
