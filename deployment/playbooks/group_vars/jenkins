@@ -9,6 +9,7 @@ system_packages:
   - nginx
   - gunicorn
   - postgresql-9.1-postgis
+  - postgresql-server-dev-9.1
   - gdal-bin
   - libgdal1-1.7.0
   - libgeos-c1
