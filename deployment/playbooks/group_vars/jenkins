@@ -2,6 +2,27 @@
 
 ## Jenkins Specific Overrides ##
 
+system_packages:
+  - git
+  - build-essential
+  - openssh-server
+  - nginx
+  - gunicorn
+  - postgresql-9.1-postgis
+  - gdal-bin
+  - libgdal1-1.7.0
+  - libgeos-c1
+  - python-psycopg2
+  - gettext
+  - python-pip
+  - python-software-properties
+  - g++
+  - make
+  - nodejs
+
+node_packages:
+  - jshint
+
 ## Paths ##
 
 app_path: /var/Jenkins/workspace/CEL-Staging/
