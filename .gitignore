@@ -11,3 +11,6 @@ python/ecep/local_settings.py
 
 # Compiled message files
 *mo
+
+# hosts file
+hosts
